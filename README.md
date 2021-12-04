@@ -35,6 +35,25 @@ android
 ![image](https://user-images.githubusercontent.com/59923602/144698108-a667c31b-439f-42c5-a2e4-8ee21cfe705e.png)
 
 
+- 아두이노 스케치에 count 값 생성
+- 특정 온도 시 count 값 증가
+
+
+![image](https://user-images.githubusercontent.com/59923602/144698283-73d32d72-80fc-4279-8b48-81aa49db336a.png)
+
+ [URL 주의!]
+- 앱 실행 전 API URI를 입력해야 합니다.
+
+사물상태 조회/변경 API URI
+ https://xxxxxxxx.execute-api.ap-northeast-2.amazonaws.com/prod/devices/{devices_name}
+ 
+사물로그 조회 API URI
+ https://xxxxxxxx.execute-api.ap-northeast-2.amazonaws.com/prod/devices/{devices_name}/log
+
+
+
+
+
 
 
 
