@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        String urlstr = "https://mb300sa626.execute-api.ap-northeast-1.amazonaws.com/prod/devices/MyMKRWiFi1010";
+        String urlstr = "https://xxxxxx.execute-api.ap-northeast-1.amazonaws.com/prod/devices/xxxxxxx";
         if (urlstr == null || urlstr.equals("")) {
             Toast.makeText(MainActivity.this, "사물상태 조회/변경 API URI 입력이 필요합니다.", Toast.LENGTH_SHORT).show();
             return;
@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 EditText edit_led = findViewById(R.id.edit_led);
-                String urlstr = "https://mb300sa626.execute-api.ap-northeast-1.amazonaws.com/prod/devices/MyMKRWiFi1010";
+                String urlstr = "https://xxxxxx.execute-api.ap-northeast-1.amazonaws.com/prod/devices/xxxxxx";
                 JSONObject payload = new JSONObject();
 
                 try {
@@ -106,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
         listLogsBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String urlstr = "https://mb300sa626.execute-api.ap-northeast-1.amazonaws.com/prod/devices/MyMKRWiFi1010/log";
+                String urlstr = "https://xxxxxx.execute-api.ap-northeast-1.amazonaws.com/prod/devices/xxxxxxx/log";
                 if (urlstr == null || urlstr.equals("")) {
                     Toast.makeText(MainActivity.this, "사물로그 조회 API URI 입력이 필요합니다.", Toast.LENGTH_SHORT).show();
                     return;
@@ -122,7 +122,7 @@ public class MainActivity extends AppCompatActivity {
         chartBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String urlstr = "https://mb300sa626.execute-api.ap-northeast-1.amazonaws.com/prod/devices/MyMKRWiFi1010/log";
+                String urlstr = "https://xxxxxxx.execute-api.ap-northeast-1.amazonaws.com/prod/devices/xxxxxx/log";
                 if (urlstr == null || urlstr.equals("")) {
                     Toast.makeText(MainActivity.this, "사물로그 조회 API URI 입력이 필요합니다.", Toast.LENGTH_SHORT).show();
                     return;
