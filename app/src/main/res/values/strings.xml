@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">IoT 화재 위험 감지기</string>
+    <string name="device_state">IoT 화재 위험 감지기 최신 상태</string>
+    <string name="temp">온도(c): </string>
+    <string name="emergency_bell">비상벨 상태 변경: </string>
+    <string name="led">부저 상태: </string>
+</resources>

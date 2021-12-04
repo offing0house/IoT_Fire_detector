@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E39191"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/temp"
+            android:gravity="center"
+            android:textSize="35dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/reported_temp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="120dp"
+            android:gravity="center"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/color"
+        android:background="@color/colorAccent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textSize="30dp"
+            android:id="@+id/text_view_state"
+            android:gravity="center"
+            android:text=" "
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_height="0dp"
+            android:layout_width="wrap_content"
+              android:id="@+id/text_nothing"
+            android:visibility="invisible"
+             />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/emergency_bell"
+            android:textSize="35dp"
+            android:gravity="center"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_led"
+            android:textSize="120dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/updateBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:drawable/ic_lock_silent_mode_off"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="로그 보기"
+            android:id="@+id/listLogsBtn"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="차트 보기"
+            android:id="@+id/chartBtn"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
