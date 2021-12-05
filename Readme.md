@@ -4,8 +4,8 @@
 # IoT_Fire_detector
 
 
+![구조도2](https://user-images.githubusercontent.com/59923602/144731165-d0901a7f-b36b-49da-8e68-11e3650509e7.png)
 
-![architecture](https://user-images.githubusercontent.com/59923602/144698588-07dbdb4e-d97b-4772-8a99-5715db80b26d.png)
 
 
 
